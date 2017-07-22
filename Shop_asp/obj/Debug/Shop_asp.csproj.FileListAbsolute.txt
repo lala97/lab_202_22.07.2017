@@ -1,0 +1,164 @@
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\ApplicationInsights.config
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\roslyn\csc.exe
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\roslyn\vbc.exe
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Shop_asp.dll.config
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Shop_asp.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Shop_asp.pdb
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Antlr3.Runtime.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\EntityFramework.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\EntityFramework.SqlServer.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.AI.Web.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.Owin.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.Owin.Security.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Newtonsoft.Json.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Owin.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\System.Web.Helpers.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\System.Web.Mvc.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\System.Web.Optimization.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\System.Web.Razor.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\System.Web.WebPages.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\WebGrease.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.AI.Web.xml
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\System.Web.Helpers.xml
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\System.Web.Mvc.xml
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\System.Web.Optimization.xml
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\System.Web.Razor.xml
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\System.Web.WebPages.xml
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Antlr3.Runtime.pdb
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Newtonsoft.Json.xml
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\EntityFramework.xml
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\EntityFramework.SqlServer.xml
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.Owin.xml
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.Owin.Security.xml
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\obj\Debug\Shop_asp.dll
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\obj\Debug\Shop_asp.pdb
+C:\Users\Lala.M\Desktop\Shop_asp\Shop_asp\obj\Debug\Shop_asp.csprojResolveAssemblyReference.cache
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\ApplicationInsights.config
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\roslyn\csc.exe
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\roslyn\vbc.exe
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Shop_asp.dll.config
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Shop_asp.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Shop_asp.pdb
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Antlr3.Runtime.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\EntityFramework.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\EntityFramework.SqlServer.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.AI.Web.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.Owin.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.Owin.Security.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Newtonsoft.Json.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Owin.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\System.Web.Helpers.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\System.Web.Mvc.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\System.Web.Optimization.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\System.Web.Razor.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\System.Web.WebPages.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\WebGrease.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.AI.Web.xml
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\System.Web.Helpers.xml
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\System.Web.Mvc.xml
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\System.Web.Optimization.xml
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\System.Web.Razor.xml
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\System.Web.WebPages.xml
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Antlr3.Runtime.pdb
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Newtonsoft.Json.xml
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\EntityFramework.xml
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\EntityFramework.SqlServer.xml
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.Owin.xml
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.Owin.Security.xml
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\obj\Debug\Shop_asp.dll
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\obj\Debug\Shop_asp.pdb
+C:\Users\Lala.M\Desktop\Shop_asp - Copy\Shop_asp\obj\Debug\Shop_asp.csprojResolveAssemblyReference.cache
