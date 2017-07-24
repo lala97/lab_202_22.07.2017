@@ -47,10 +47,10 @@
         <td>
             @Html.DisplayFor(modelItem => item.price)
         </td>
-        <td>
+        <td width="60px">
             @Html.DisplayFor(modelItem => item.description)
         </td>
-        <td>
+        <td width="60px">
             @Html.DisplayFor(modelItem => item.information)
         </td>
         <td>
@@ -60,7 +60,7 @@
             @Html.DisplayFor(modelItem => item.tag)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.photo)
+            <img src="~/Uploads/@Html.DisplayFor(modelItem => item.photo)" alt="Alternate Text" width="100px"/>           
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Category.name)

@@ -21,7 +21,7 @@
     <Property Name="category_id" Type="Int32" Nullable="false" />
     <Property Name="tag" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
     <NavigationProperty Name="Category" Relationship="Self.FK_Product_Category" FromRole="Product" ToRole="Category" />
-    <Property Name="photo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="photo" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
   </EntityType>
   <EntityType Name="Slider">
     <Key>

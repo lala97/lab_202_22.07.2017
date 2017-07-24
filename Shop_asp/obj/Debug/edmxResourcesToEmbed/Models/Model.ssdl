@@ -27,7 +27,7 @@
     <Property Name="sale" Type="int" />
     <Property Name="category_id" Type="int" Nullable="false" />
     <Property Name="tag" Type="nchar" MaxLength="10" />
-    <Property Name="photo" Type="varchar" MaxLength="50" />
+    <Property Name="photo" Type="varchar" MaxLength="255" />
   </EntityType>
   <EntityType Name="Slider">
     <Key>

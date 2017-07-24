@@ -348,6 +348,7 @@
     <Folder Include="Public\fonts\" />
     <Folder Include="Public\images\" />
     <Folder Include="Public\js\" />
+    <Folder Include="Uploads\" />
     <Folder Include="Views\Base\" />
     <Folder Include="Views\User\" />
   </ItemGroup>

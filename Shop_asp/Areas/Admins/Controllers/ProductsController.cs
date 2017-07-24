@@ -7,7 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using Shop_asp.Models;
-
+using System.IO;
 namespace Shop_asp.Areas.Admins.Controllers
 {
     public class ProductsController : Controller
@@ -48,8 +48,19 @@ namespace Shop_asp.Areas.Admins.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "id,name,price,description,information,sale,category_id,tag,photo")] Product product)
+        public ActionResult Create([Bind(Include = "id,name,price,description,information,sale,category_id,tag,photo")] Product product,string photo)
         {
+            var upload_file = HttpContext.Request.Files["photo"];
+
+            if (upload_file.ContentType == "image/gif" || upload_file.ContentType == "image/png" || upload_file.ContentType == "image/jpg" || upload_file.ContentType == "image/jpeg")
+            {
+                string file_name = DateTime.Now.ToString("mm - ss - ffff - ") + upload_file.FileName;
+                string new_file = Path.Combine(HttpContext.Server.MapPath("/Uploads"), file_name);
+                upload_file.SaveAs(new_file);
+                product.photo = file_name;
+            }
+           // return Content(product.photo.ToString());
+
             if (ModelState.IsValid)
             {
                 db.Products.Add(product);
@@ -82,8 +93,24 @@ namespace Shop_asp.Areas.Admins.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "id,name,price,description,information,sale,category_id,tag,photo")] Product product)
+        public ActionResult Edit([Bind(Include = "id,name,price,description,information,sale,category_id,tag,photo")] Product product,string oldfile)
         {
+            var upload_file = HttpContext.Request.Files["photo"];
+            if (upload_file.FileName.Length>0)
+            {
+                if (upload_file.ContentType == "image/gif" || upload_file.ContentType == "image/png" || upload_file.ContentType == "image/jpg" || upload_file.ContentType == "image/jpeg")
+                {
+                    string file_name = DateTime.Now.ToString("mm - ss - ffff - ") + upload_file.FileName;
+                    string new_file = Path.Combine(HttpContext.Server.MapPath("/Uploads"), file_name);
+                    upload_file.SaveAs(new_file);
+                    product.photo = file_name;
+                }
+            }
+            else
+            {
+                product.photo = oldfile;
+            }
+           
             if (ModelState.IsValid)
             {
                 db.Entry(product).State = EntityState.Modified;
