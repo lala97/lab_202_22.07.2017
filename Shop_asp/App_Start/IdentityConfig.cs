@@ -46,7 +46,7 @@ namespace Shop_asp
             // Configure validation logic for usernames
             manager.UserValidator = new UserValidator<ApplicationUser>(manager)
             {
-                AllowOnlyAlphanumericUserNames = false,
+                AllowOnlyAlphanumericUserNames = false, 
                 RequireUniqueEmail = true
             };
 

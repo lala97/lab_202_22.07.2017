@@ -305,15 +305,16 @@
                             <span class="mt-side-subtitle">SIGN IN</span>
                             <p>Welcome back! Sign in to Your Account</p>
                         </header>
-                        <form action="@Url.Action("login","user")">
+                       
+                        <form  action="@Url.Action("login", "user")">
                             <fieldset>
-                                <input type="text" name="username" placeholder="Username or email address" class="input">
-                                <input type="password" name="password" placeholder="Password" class="input">
-                                <div class="box">ss
+                                <input type="text" data-validation="required" id="log_username" name="username" placeholder="Username or email address" class="input">
+                                <input type="password" data-validation="required" id="log_password" name="password" placeholder="Password" class="input">
+                                <div class="box">
                                     <span class="left"><input class="checkbox" type="checkbox" id="check1"><label for="check1">Remember Me</label></span>
                                     <a href="#" class="help">Help?</a>
                                 </div>
-                                <button type="submit" class="btn-type1">Login</button>
+                                <button type="submit" class="btn-type1" id="login">Login</button>
                             </fieldset>
                         </form>
                     </div>
@@ -321,15 +322,19 @@
                     <div class="or-divider"><span class="txt">or</span></div>
                     <!-- mt side widget start here -->
                     <div class="mt-side-widget">
-                        <header>
+                        <header>                        
                             <span class="mt-side-subtitle">CREATE NEW ACCOUNT</span>
                             <p>Create your very own account</p>
                         </header>
-                        <form action="#">
+                        <form action="@Url.Action("register","user")">
                             <fieldset>
-                                <input type="text" placeholder="Username or email address" class="input">
-                                <button type="submit" class="btn-type1">Register</button>
+                                <input type="text" name="username" id="reg_username"placeholder="Username" class="input">
+                                <input data-validation="server email" id="reg_email" data-validation-url="@Url.Action("checkEmail","user")" type="email" placeholder="Email" class="input" name="email" />                            
+                                <input type="password" name="password" id="reg_password" placeholder="Password" class="input">
+                                <button type="submit" id="register" class="btn-type1">Register</button>
                             </fieldset>
+
+                            <div id="message"></div>
                         </form>
                     </div>
                     <!-- mt side widget end here -->
@@ -560,7 +565,11 @@
     <script src="~/Public/js/plugins.js"></script>
     <!-- include jQuery -->
     <script src="~/Public/js/jquery.main.js"></script>
+    <script src="~/Public/js/main.js"></script>
+   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+   
 </body>
+
 
 <!-- Mirrored from htmlbeans.com/demos/schon/homepage1.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Jul 2017 20:22:06 GMT -->
 </html>

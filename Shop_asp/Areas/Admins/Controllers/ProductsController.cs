@@ -13,7 +13,7 @@ namespace Shop_asp.Areas.Admins.Controllers
     public class ProductsController : Controller
     {
         private ShopEntities db = new ShopEntities();
-
+            
         // GET: Admins/Products
         public ActionResult Index()
         {
@@ -51,7 +51,7 @@ namespace Shop_asp.Areas.Admins.Controllers
         public ActionResult Create([Bind(Include = "id,name,price,description,information,sale,category_id,tag,photo")] Product product,string photo)
         {
             var upload_file = HttpContext.Request.Files["photo"];
-
+             
             if (upload_file.ContentType == "image/gif" || upload_file.ContentType == "image/png" || upload_file.ContentType == "image/jpg" || upload_file.ContentType == "image/jpeg")
             {
                 string file_name = DateTime.Now.ToString("mm - ss - ffff - ") + upload_file.FileName;

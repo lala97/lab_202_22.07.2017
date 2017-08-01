@@ -4,26 +4,108 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Shop_asp.Models;
+using System.Web.Helpers;
 namespace Shop_asp.Controllers
 {
     public class UserController : BaseController
     {
-        
         // GET: User
+      //  [HttpPost]
+        //public JsonResult Login(string username, string password)
+        //{
+        //    if (username.Length > 0 && password.Length > 0)
+        //    {
+        //        var pass = Crypto.Hash(password, "MD5");
+
+        //        User user = db.Users.FirstOrDefault(us => us.username == username && us.password==pass);
+        //        //var encodingPasswordString = Helper.EncodePassword(user.password, "Md5");
+        //      //  return Content(pass +"<br>"+ user.password);
+        //        if (user != null)
+        //        {
+        //            var response = new
+        //            {
+        //                valid = true,
+        //            };
+        //            return Json(response, JsonRequestBehavior.AllowGet);
+
+        //        }
+        //        else
+        //        {
+        //            var response = new
+        //            {
+        //                valid = false,
+        //                message = "Username or password is incorrect!"
+        //            };
+        //            return Json(response, JsonRequestBehavior.AllowGet);
+        //        }
+        //    }
+        //    else
+        //    {
+        //        var response = new
+        //        {
+        //            valid = false,
+        //            message = "Input is required"
+        //        };
+        //        return Json(response, JsonRequestBehavior.AllowGet);
+        //    }
+        
+        //}
+
         [HttpPost]
-        public ActionResult Login(string username,string password)
+        public ActionResult Register(User user)
         {
-            if (username.Length>0 && password.Length>0)
+            if (user.username != null && user.password != null && user.email != null)
             {
-                User user = db.Users.FirstOrDefault(us => us.username == username || us.email == username && us.password == password);
-                //if (user!=null)
-                //{
-                //    return RedirectToAction("index","");
-                //}
+                // user.password = Crypto.HashPassword(user.password);
+                user.password = Crypto.Hash(user.password, "MD5");
+                db.Users.Add(user);
+                db.SaveChanges();
+                Session["user"] = true;
+                return RedirectToAction("index", "index");
             }
-           
-           
-            return View();
+            else
+            {
+                return RedirectToAction("index", "index");
+            }
+            //  return View();
+        }
+
+        [HttpPost]
+        public JsonResult checkEmail(string email)
+        {
+            if (email.Length>0)
+            {
+                User user = db.Users.FirstOrDefault(usr => usr.email == email);
+                if (user != null)
+                {
+                    var response = new
+                    {
+                        valid = false,
+                        message = "This email already exists!"
+                    };
+                    return Json(response, JsonRequestBehavior.AllowGet);
+
+                }
+                else
+                {
+                    var response = new
+                    {
+                        valid = true,                    
+                    };
+                    return Json(response, JsonRequestBehavior.AllowGet);
+
+                }
+
+            }
+            else
+            {
+                var response = new
+                {
+                    valid = false,
+                    message = "Email is required"
+                };
+                return Json(response, JsonRequestBehavior.AllowGet);
+            }
         }
     }
 }

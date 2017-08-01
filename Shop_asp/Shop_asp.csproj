@@ -200,6 +200,7 @@
     <Compile Include="Areas\Admins\AdminsAreaRegistration.cs" />
     <Compile Include="Areas\Admins\Controllers\AdminController.cs" />
     <Compile Include="Areas\Admins\Controllers\ProductsController.cs" />
+    <Compile Include="Areas\Admins\Controllers\UsersController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -266,6 +267,7 @@
       <DependentUpon>Model.edmx</DependentUpon>
       <LastGenOutput>Model.cs</LastGenOutput>
     </Content>
+    <Content Include="Public\js\main.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -287,6 +289,9 @@
     <Content Include="Areas\Admins\Views\Products\Details.cshtml" />
     <Content Include="Areas\Admins\Views\Products\Edit.cshtml" />
     <Content Include="Areas\Admins\Views\Products\Index.cshtml" />
+    <Content Include="Areas\Admins\Views\Users\Delete.cshtml" />
+    <Content Include="Areas\Admins\Views\Users\Details.cshtml" />
+    <Content Include="Areas\Admins\Views\Users\Index.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -347,8 +352,6 @@
     <Folder Include="Public\css\" />
     <Folder Include="Public\fonts\" />
     <Folder Include="Public\images\" />
-    <Folder Include="Public\js\" />
-    <Folder Include="Uploads\" />
     <Folder Include="Views\Base\" />
     <Folder Include="Views\User\" />
   </ItemGroup>
