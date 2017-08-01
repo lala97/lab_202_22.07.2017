@@ -10,46 +10,33 @@ namespace Shop_asp.Controllers
     public class UserController : BaseController
     {
         // GET: User
-      //  [HttpPost]
-        //public JsonResult Login(string username, string password)
-        //{
-        //    if (username.Length > 0 && password.Length > 0)
-        //    {
-        //        var pass = Crypto.Hash(password, "MD5");
+        [HttpPost]
+        public JsonResult Login(string username, string password)
+        {
+            var pass = Crypto.Hash(password, "MD5");
+            User user = db.Users.FirstOrDefault(u => u.username == username && u.password == pass);
+          
+            if (user != null)
+            {
+                Session["user"] = true;
+                var response = true;
+                return Json(response, JsonRequestBehavior.AllowGet);
 
-        //        User user = db.Users.FirstOrDefault(us => us.username == username && us.password==pass);
-        //        //var encodingPasswordString = Helper.EncodePassword(user.password, "Md5");
-        //      //  return Content(pass +"<br>"+ user.password);
-        //        if (user != null)
-        //        {
-        //            var response = new
-        //            {
-        //                valid = true,
-        //            };
-        //            return Json(response, JsonRequestBehavior.AllowGet);
+            }
+            else
+            {
+                var response = false;
+                return Json(response, JsonRequestBehavior.AllowGet);
+            }
 
-        //        }
-        //        else
-        //        {
-        //            var response = new
-        //            {
-        //                valid = false,
-        //                message = "Username or password is incorrect!"
-        //            };
-        //            return Json(response, JsonRequestBehavior.AllowGet);
-        //        }
-        //    }
-        //    else
-        //    {
-        //        var response = new
-        //        {
-        //            valid = false,
-        //            message = "Input is required"
-        //        };
-        //        return Json(response, JsonRequestBehavior.AllowGet);
-        //    }
-        
-        //}
+        }
+
+        public ActionResult Logout()
+        {
+            Session["user"] = null;
+            Session.Clear();
+            return RedirectToAction("index", "index");
+        }
 
         [HttpPost]
         public ActionResult Register(User user)
@@ -60,7 +47,7 @@ namespace Shop_asp.Controllers
                 user.password = Crypto.Hash(user.password, "MD5");
                 db.Users.Add(user);
                 db.SaveChanges();
-                Session["user"] = true;
+              
                 return RedirectToAction("index", "index");
             }
             else

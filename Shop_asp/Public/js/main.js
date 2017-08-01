@@ -17,7 +17,7 @@
             },
             success: function (result) {         
                 $(':input').val('');
-                $("#message").append(
+                $("#message-login").append(
                       "Your registeration has been sent successfully"
                     );
             }
@@ -45,8 +45,14 @@
             },
             success: function (result) {
                 $(':input').val('');
-                console.log("sucees");
-              //  location.reload();
+                if (result==true) {
+                    location.reload();
+                }
+                else {
+                    $("#message-reg").append(
+                     "INCORRECT."
+                   );
+                }
             }
         });
     });
