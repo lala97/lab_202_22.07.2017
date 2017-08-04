@@ -39,20 +39,35 @@ namespace Shop_asp.Controllers
         }
 
         [HttpPost]
-        public ActionResult Register(User user)
+        public JsonResult Register(User user)
         {
             if (user.username != null && user.password != null && user.email != null)
             {
-                // user.password = Crypto.HashPassword(user.password);
-                user.password = Crypto.Hash(user.password, "MD5");
-                db.Users.Add(user);
-                db.SaveChanges();
-              
-                return RedirectToAction("index", "index");
+               User usr= db.Users.FirstOrDefault(u => u.email == user.email);
+                if (usr == null)
+                {
+                    user.password = Crypto.Hash(user.password, "MD5");
+                    db.Users.Add(user);
+                    db.SaveChanges();
+                    // user.password = Crypto.HashPassword(user.password);
+
+
+                    Session["user"] = true;
+                    var response = true;
+                    return Json(response, JsonRequestBehavior.AllowGet);
+                }
+                else
+                {
+                    var response = false;
+                    return Json(response, JsonRequestBehavior.AllowGet);
+
+                }
+               
             }
             else
             {
-                return RedirectToAction("index", "index");
+                var response = false;
+                return Json(response, JsonRequestBehavior.AllowGet);
             }
             //  return View();
         }

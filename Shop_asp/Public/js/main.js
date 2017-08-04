@@ -16,10 +16,16 @@
                 password:password
             },
             success: function (result) {         
-                $(':input').val('');
-                $("#message-login").append(
-                      "Your registeration has been sent successfully"
-                    );
+                if (result == true) {
+                    $(':input').val('');
+                    location.reload();
+                }
+                else {
+                    $("#message-reg").html(
+                     "INCORRECT."
+                   );
+                }
+              
             }
         });
        
@@ -46,10 +52,10 @@
             success: function (result) {
                 $(':input').val('');
                 if (result==true) {
-                    location.reload();
+                    location.reload(); 
                 }
                 else {
-                    $("#message-reg").append(
+                    $("#message-login").append(
                      "INCORRECT."
                    );
                 }

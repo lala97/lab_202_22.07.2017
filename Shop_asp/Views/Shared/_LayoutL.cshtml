@@ -323,7 +323,7 @@
                                     <a href="#" class="help">Help?</a>
                                 </div>
                                 <button type="submit" class="btn-type1" id="login">Login</button>
-                                <div id="message-reg"></div>
+                                <div id="message-login"></div>
                             </fieldset>
                         </form>
                     </div>
@@ -341,9 +341,10 @@
                                 <input data-validation="server email"  id="reg_email" data-validation-url="@Url.Action("checkEmail","user")" type="email" placeholder="Email" class="input" name="email" />                            
                                 <input type="password" data-validation="strength" data-validation-strength="2" name="password" id="reg_password" placeholder="Password" class="input">
                                 <button type="submit" id="register" class="btn-type1">Register</button>
+                                <div id="message-reg"></div>
+
                             </fieldset>
 
-                            <div id="message-login"></div>
                         </form>
                     </div>
                     <!-- mt side widget end here -->
