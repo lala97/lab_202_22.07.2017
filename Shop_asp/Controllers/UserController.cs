@@ -19,6 +19,7 @@ namespace Shop_asp.Controllers
             if (user != null)
             {
                 Session["user"] = true;
+                Session["auth"] = (User);
                 var response = true;
                 return Json(response, JsonRequestBehavior.AllowGet);
 
@@ -50,14 +51,17 @@ namespace Shop_asp.Controllers
                     db.Users.Add(user);
                     db.SaveChanges();
                     // user.password = Crypto.HashPassword(user.password);
-
-
+                    
                     Session["user"] = true;
-                    var response = true;
+                    Session["auth"] = usr.username;
+
+
+                     var response = true;
                     return Json(response, JsonRequestBehavior.AllowGet);
                 }
                 else
                 {
+                   
                     var response = false;
                     return Json(response, JsonRequestBehavior.AllowGet);
 

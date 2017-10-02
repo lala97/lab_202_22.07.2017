@@ -58,6 +58,7 @@
                                     <li><a href="@Url.Action("logout","user")">Logout</a></li>
                                         @if (Session["user"] != null)
                                         {
+                                          <h1>  @Session["auth"]</h1>
                                             <li class="drop">
 
                                                 <a href="#" class="icon-heart cart-opener"><span style="margin-bottom: -3px;" class="num">3</span></a>
@@ -65,7 +66,7 @@
                                                 <div class="mt-drop">
                                                     <!-- mt drop sub start here -->
                                                     <div class="mt-drop-sub">
-                                                        <!-- mt side widget start here -->
+                                                         <!-- mt side widget start here -->
                                                         <div class="mt-side-widget">
                                                             <!-- cart row start here -->
                                                             <div class="cart-row">
